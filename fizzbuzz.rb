@@ -2,12 +2,12 @@
 # See README.md for instructions on how to do this
 describe "fizzbuzz" do
   it 'returns "Fizz" when the number is divisible by 3' do
-    fizz_9 = fizzbuzz(9)
-    expect(fizz_9).to eq("Fizz")
+    fizz_3 = fizzbuzz(3)
+    expect(fizz_3).to eq("Fizz")
   end
   it 'returns "Buzz" when the number is divisible by 5' do
-    fizz_10 = fizzbuzz(10)
-    expect(fizz_10).to eq("Buzz")
+    fizz_5 = fizzbuzz(5)
+    expect(fizz_5).to eq("Buzz")
   end
   it 'returns "Fizzbuzz" when the number is divisible by 3 and 5' do
     fizz_15 = fizzbuzz(15)
